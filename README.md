@@ -12,6 +12,13 @@ The allocate-happy version builds a cleaned lowercase copy and compares it with 
 
 **Complexity:** O(n) time, O(1) space. (Byte-level; for full Unicode, switch to rune iteration and `unicode` classification.)
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
